@@ -30,69 +30,69 @@ export default SituationCard;
 
 const Card = styled.article`
   width: 100%;
-  min-height: 240px;
-  padding: 22px;
+  min-height: 200px;
+  padding: 16px;
   border: 3px solid #111;
-  border-radius: 18px;
+  border-radius: 14px;
   background: #fffdf8;
-  box-shadow: 6px 6px 0 #111;
+  box-shadow: 5px 5px 0 #111;
   text-align: left;
   transition: transform 0.2s ease;
 
   &:hover {
-    transform: translate(-3px, -3px);
+    transform: translate(-2px, -2px);
   }
 `;
 
 const Tag = styled.span`
   display: inline-block;
-  margin-bottom: 14px;
-  padding: 6px 12px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
   border-radius: 999px;
   background: #f1e7d8;
   color: #7a5c3f;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
 `;
 
 const Title = styled.h3`
-  margin: 0 0 12px;
+  margin: 0 0 8px;
   color: #2f2924;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.35;
 `;
 
 const Summary = styled.p`
-  margin: 0 0 18px;
+  margin: 0 0 12px;
   color: #6f6760;
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 13px;
+  line-height: 1.5;
 `;
 
 const MoodList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 22px;
+  gap: 6px;
+  margin-bottom: 14px;
 `;
 
 const MoodTag = styled.span`
-  padding: 6px 10px;
+  padding: 5px 8px;
   border-radius: 999px;
   background: #f7f3ed;
   color: #7c756f;
-  font-size: 13px;
+  font-size: 12px;
 `;
 
 const ViewLink = styled(Link)`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 11px 16px;
+  padding: 9px 13px;
   border-radius: 999px;
   background: #2f2924;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   text-decoration: none;
 

@@ -22,4 +22,14 @@ export interface Course {
   summary: string;
   moodTags: string[];
   placeIds: number[]; // 코스에 포함된 장소들의 id 목록
+  image?: string; // 코스 대표 이미지
+}
+
+// 장소별 리뷰 데이터
+export interface Review {
+  id: number;
+  placeId: number;
+  rating: number;
+  content: string;
+  createdAt: string;
 }
